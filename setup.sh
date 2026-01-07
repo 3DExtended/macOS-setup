@@ -25,3 +25,6 @@ brew install --cask android-studio
 brew install --cask docker
 
 brew install --cask dotnet-sdk
+
+# optimize charging cycles
+brew install battery
