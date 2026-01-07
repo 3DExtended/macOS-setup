@@ -26,6 +26,9 @@ brew install --cask docker
 
 brew install --cask dotnet-sdk
 
+brew install node
+
+
 # optimize charging cycles
 brew install battery
 
