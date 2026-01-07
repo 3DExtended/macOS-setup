@@ -28,3 +28,16 @@ brew install --cask dotnet-sdk
 
 # optimize charging cycles
 brew install battery
+
+cd ~
+cd Documents 
+mkdir projects
+cd projects
+mkdir archive 
+cd archive
+
+ssh-keygen -t ed25519 -C "somemail@example.com"
+
+echo >> /Users/$USER/.zshrc
+echo "alias dev='cd ~/Documents/projects'" >> /Users/$USER/.zshrc
+source ~/.zshrc
