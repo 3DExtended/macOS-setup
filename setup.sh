@@ -53,3 +53,5 @@ git clone git@github.com:3DExtended/RPGTableHelper.git rpgTableHelper
 echo >> /Users/$USER/.zshrc
 echo "alias dev='cd ~/Documents/projects'" >> /Users/$USER/.zshrc
 source ~/.zshrc
+
+brew install --cask microsoft-office
