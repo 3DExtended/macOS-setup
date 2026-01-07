@@ -33,10 +33,19 @@ cd ~
 cd Documents 
 mkdir projects
 cd projects
+
+ssh-keygen -t ed25519 -C "somemail@example.com"
+
+# clone projects
+git clone git@github.com:3DExtended/BookGram.git bookgram
+git clone git@github.com:3DExtended/PrivateCookbook.git privateCookbook
+
 mkdir archive 
 cd archive
 
-ssh-keygen -t ed25519 -C "somemail@example.com"
+git clone git@github.com:3DExtended/BookGram-Landingpage.git bookgramLandingpage
+git clone git@github.com:3DExtended/RPGTableHelper.git rpgTableHelper
+
 
 echo >> /Users/$USER/.zshrc
 echo "alias dev='cd ~/Documents/projects'" >> /Users/$USER/.zshrc
