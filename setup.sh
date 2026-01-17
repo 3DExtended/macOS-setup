@@ -58,3 +58,5 @@ echo "alias dev='cd ~/Documents/projects'" >> /Users/$USER/.zshrc
 source ~/.zshrc
 
 brew install --cask microsoft-office
+
+sudo gem install xcpretty
