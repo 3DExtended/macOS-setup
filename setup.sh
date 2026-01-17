@@ -60,3 +60,5 @@ source ~/.zshrc
 brew install --cask microsoft-office
 
 sudo gem install xcpretty
+
+brew install gimp
