@@ -33,7 +33,8 @@ brew install node
 brew install battery
 
 cd ~
-cd Documents 
+mkdir Developer
+cd Developer 
 mkdir projects
 cd projects
 
